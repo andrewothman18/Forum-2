@@ -4,10 +4,10 @@ import java.util.Scanner;
 class No1 {
     public static void main(String[] args) {
         Scanner PrintArray = new Scanner(System.in);
-        System.out.print("Enter the number of items: ");
+        System.out.print("Enter the no of items: ");
 
-        int NUM_ITEMS = PrintArray.nextInt();
-        int [] items = new int[NUM_ITEMS];
+        int NUMBER_ITEMS = PrintArray.nextInt();
+        int [] items = new int[NUMBER_ITEMS];
 
         System.out.print("Enter the value of all items (separated by space): ");
             for (int i = 0; i < items.length; ++i) {
@@ -20,7 +20,7 @@ class No1 {
                 System.out.print(items[i] + ", ");
             }
 
-            for (int i = items.length - 1; i == NUM_ITEMS - 1; ++i) {
+            for (int i = items.length - 1; i == NUMBER_ITEMS - 1; ++i) {
                 System.out.print(items[i]);
             }
 
